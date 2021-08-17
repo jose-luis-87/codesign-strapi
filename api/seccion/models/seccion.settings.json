@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seccions",
+  "info": {
+    "name": "seccion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    },
+    "icons": {
+      "via": "seccion",
+      "collection": "icon"
+    }
+  }
+}
