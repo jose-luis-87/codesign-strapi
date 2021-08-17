@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "icons",
+  "info": {
+    "name": "icon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "svg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "seccion": {
+      "model": "seccion",
+      "via": "icons"
+    }
+  }
+}
