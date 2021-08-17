@@ -6,4 +6,10 @@ module.exports = ({ env }) => ({
       secret: env('ADMIN_JWT_SECRET', 'd32451a0a9a77bfe74d376059407776a'),
     },
   },
+  settings:{
+    cors: {
+      enabled: true,
+      origin: ['*']
+    }
+  }
 });
