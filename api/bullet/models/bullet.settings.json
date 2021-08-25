@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "icons",
+  "collectionName": "bullets",
   "info": {
-    "name": "bullet",
-    "description": ""
+    "name": "bullet"
   },
   "options": {
     "increments": true,
@@ -12,27 +11,26 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nombre": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
       "type": "string"
     },
     "img": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
     },
-    "descripcion": {
-      "type": "text"
-    },
-    "seccion": {
-      "via": "icons",
-      "model": "seccion"
+    "slug": {
+      "type": "uid"
     }
   }
 }

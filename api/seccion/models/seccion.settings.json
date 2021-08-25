@@ -21,10 +21,6 @@
     "contenido": {
       "type": "richtext"
     },
-    "icons": {
-      "via": "seccion",
-      "collection": "icon"
-    },
     "slug": {
       "type": "uid"
     }

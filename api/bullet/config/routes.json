@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/icons",
-      "handler": "icon.find",
+      "path": "/bullets",
+      "handler": "bullet.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/icons/count",
-      "handler": "icon.count",
+      "path": "/bullets/count",
+      "handler": "bullet.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/icons/:id",
-      "handler": "icon.findOne",
+      "path": "/bullets/:id",
+      "handler": "bullet.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/icons",
-      "handler": "icon.create",
+      "path": "/bullets",
+      "handler": "bullet.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/icons/:id",
-      "handler": "icon.update",
+      "path": "/bullets/:id",
+      "handler": "bullet.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/icons/:id",
-      "handler": "icon.delete",
+      "path": "/bullets/:id",
+      "handler": "bullet.delete",
       "config": {
         "policies": []
       }
