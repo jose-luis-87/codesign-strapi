@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners",
+  "info": {
+    "name": "partner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "badges": {
+      "collection": "badge",
+      "via": "partner"
+    }
+  }
+}

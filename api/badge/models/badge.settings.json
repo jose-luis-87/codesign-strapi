@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "badges",
+  "info": {
+    "name": "badge"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "partner": {
+      "via": "badges",
+      "model": "partner"
+    }
+  }
+}
