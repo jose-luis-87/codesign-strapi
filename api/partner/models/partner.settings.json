@@ -26,6 +26,7 @@
       "targetField": "name"
     },
     "badges": {
+      "via": "partners",
       "collection": "badge"
     }
   }

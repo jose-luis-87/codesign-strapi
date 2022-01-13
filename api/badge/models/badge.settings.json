@@ -18,6 +18,11 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "partners": {
+      "collection": "partner",
+      "via": "badges",
+      "dominant": true
     }
   }
 }
