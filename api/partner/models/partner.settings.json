@@ -16,7 +16,8 @@
       "type": "string"
     },
     "position": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "order": {
       "type": "biginteger"
