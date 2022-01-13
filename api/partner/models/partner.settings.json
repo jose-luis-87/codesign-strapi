@@ -21,9 +21,12 @@
     "order": {
       "type": "biginteger"
     },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
     "badges": {
-      "collection": "badge",
-      "via": "partner"
+      "collection": "badge"
     }
   }
 }
