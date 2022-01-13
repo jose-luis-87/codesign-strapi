@@ -23,6 +23,9 @@
       "collection": "partner",
       "via": "badges",
       "dominant": true
+    },
+    "priority": {
+      "type": "integer"
     }
   }
 }
