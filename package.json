@@ -9,8 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
+    "@strapi/provider-email-sendgrid": "^4.0.4",
     "strapi": "3.6.6",
     "strapi-admin": "3.6.6",
     "strapi-connector-mongoose": "3.6.6",
@@ -28,7 +28,8 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "ac3259a7-fb80-4d77-83dc-a2ac3c9ee2ef"
+    "uuid": "ac3259a7-fb80-4d77-83dc-a2ac3c9ee2ef",
+    "isProvider": true
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
