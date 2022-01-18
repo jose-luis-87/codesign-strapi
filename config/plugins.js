@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  email: {
+ /*  email: {
     config: {
       provider: 'sendgrid',
       providerOptions: {
@@ -22,6 +22,6 @@ module.exports = ({ env }) => ({
         testAddress: 'jose.luis@codesign.mx',
       },
     },
-  },
+  }, */
 });
  
