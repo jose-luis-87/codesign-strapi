@@ -10,18 +10,6 @@ module.exports = ({ env }) => ({
       },
     },
   },
- /*  email: {
-    config: {
-      provider: 'sendgrid',
-      providerOptions: {
-        apiKey: env('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'),
-      },
-      settings: {
-        defaultFrom: 'jose.luis@codesign.mx',
-        defaultReplyTo: 'jose.luis@codesign.mx',
-        testAddress: 'jose.luis@codesign.mx',
-      },
-    },
-  }, */
+ 
 });
  
