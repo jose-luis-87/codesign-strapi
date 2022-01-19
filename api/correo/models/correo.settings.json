@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "correos",
+  "info": {
+    "name": "Correo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "telefono": {
+      "type": "biginteger",
+      "required": true
+    },
+    "terminos": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
