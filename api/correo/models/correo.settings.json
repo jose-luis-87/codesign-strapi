@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "correos",
   "info": {
-    "name": "Correo"
+    "name": "Correo",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -25,6 +26,10 @@
     },
     "terminos": {
       "type": "boolean",
+      "required": true
+    },
+    "site": {
+      "type": "string",
       "required": true
     }
   }
