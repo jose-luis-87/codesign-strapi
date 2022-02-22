@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "referrers",
+  "info": {
+    "name": "referrer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
